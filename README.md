@@ -3,7 +3,7 @@ An interactive textarea that updates a real-time character counter as the user t
 
 ## 🚀 Live Demo
 
-🔗 Live Site: 
+🔗 Live Site: https://ajayandrew.github.io/Character_Counter_Textarea/
 
 ## 📂 GitHub Repository
 

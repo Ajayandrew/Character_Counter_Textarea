@@ -7,7 +7,7 @@ An interactive textarea that updates a real-time character counter as the user t
 
 ## 📂 GitHub Repository
 
-🔗 Repository: 
+🔗 Repository: https://github.com/Ajayandrew/Character_Counter_Textarea.git
 
 ### Features
 - Dark glass UI

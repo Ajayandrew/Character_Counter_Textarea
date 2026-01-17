@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Area Char Counter</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen bg-cover bg-center flex items-center justify-center"
+    style="background-image: url('./images/BG\ image.png');">
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/70"></div>
+
+    <!-- Glass Card -->
+    <div class="relative bg-white/10 backdrop-blur-xl border border-white/20
+              rounded-xl p-8 w-full max-w-md text-white shadow-2xl">
+
+        <h2 class="text-3xl font-bold text-center mb-6">Message Char-Counter</h2>
+
+        <form>
+            <div class="mt-6">
+                <label class="text-white font-medium">
+                    Message
+                    <span class="text-sm text-gray-300">(200 characters max)</span>
+                </label>
+
+                <textarea id="message" rows="4" maxlength="200" placeholder="Type your message..." class="w-full mt-2 p-3 rounded
+           bg-white/20 text-white border border-white/30 focus:ring-2 focus:ring-cyan-400
+           outline-none transition resize-none"></textarea>
+
+                <div class="flex justify-between mt-1 text-sm">
+                    <p id="charCount" class="text-gray-300">0 / 200 characters</p>
+                    <p id="Warning" class="text-red-400 hidden">
+                        Character limit reached
+                    </p>
+                </div>
+            </div>
+        </form>
+        <!-- External JS -->
+        <script src="count.js"></script>
+</body>
+
+</html>
